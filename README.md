@@ -1,7 +1,7 @@
 Movie Search App 🎬
 A modern and responsive web application to search for movies and TV shows using the TVMaze API.
 🚀 Live Demo
-[View my project on Vercel](movie-search-app1-lz65xyamn-justinas-projects-277fe149.vercel.app)
+[View my project on Vercel](movie-search-app1-rust.vercel.app)
 
 
 ✨ Features
