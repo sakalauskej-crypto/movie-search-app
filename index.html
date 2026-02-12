@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinoGidas – Atrask savo kitą nuotykį</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Kino<span>Gidas</span></a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Pradžia</a></li>
+                <li><a href="#">Populiariausi</a></li>
+                <li><a href="#">Apie projektą</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="container hero-content">
+                <h1>Visi filmai ir serialai vienoje vietoje</h1>
+                <p>Naudojame naujausią TVMaze duomenų bazę jūsų paieškoms.</p>
+                <div class="search-box">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="Įveskite pavadinimą..."
+                    />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="section-header">
+            <h2 id="status">Kraunami filmai...</h2>
+        </div>
+        <div id="results" class="grid"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 KinoGidas projektas.</p>
+                <p>Duomenų šaltinis: <a href="https://www.tvmaze.com/api" target="_blank">TVMaze API</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
