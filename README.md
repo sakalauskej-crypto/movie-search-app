@@ -14,6 +14,6 @@ A modern and responsive web application to search for movies and TV shows using 
 
 
   🛠️ Tech Stack
-* **HTML5** & **CSS3** (Flexbox, Grid, Media Queries)
+* **HTML5** & **CSS3** (Flexbox, Media Queries)
 * **JavaScript (ES6)** (Fetch API, DOM manipulation)
 * **TVMaze API** (External data source)
